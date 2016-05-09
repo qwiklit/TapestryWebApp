@@ -1,0 +1,1338 @@
+<!DOCTYPE HTML>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+
+
+<link rel="icon" type="image/png" href="images/splash/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" sizes="196x196" href="images/splash/apple-touch-icon-196x196.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/splash/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/splash/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/splash/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/splash/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/splash/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/splash/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/splash/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/splash/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/splash/apple-touch-icon-57x57.png">  
+<link rel="icon" type="image/png" href="images/splash/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="images/splash/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/splash/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" href="images/splash/favicon.ico" type="image/x-icon" /> 
+          <link rel="stylesheet" type="text/css" href="gridloadingeffects/css/default.css" />
+          <link rel="stylesheet" type="text/css" href="gridloadingeffects/css/component.css" />
+		  <script src="gridloadingeffects/js/modernizr.custom.js"></script>
+
+    
+<title>Tapestry Story Reader</title>
+
+<link href="styles/style.css"           rel="stylesheet" type="text/css">
+<link href="styles/menus.css"           rel="stylesheet" type="text/css">
+<link href="styles/framework.css"       rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"    rel="stylesheet" type="text/css">
+<link href="styles/animate.css"         rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework-plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+
+</head>
+
+<body class="dual-sidebar"> 
+    
+<div id="preloader">
+	<div id="status">
+        <div class="preloader-logo"></div>
+        <h3 class="center-text">Welcome</h3>
+        <p class="center-text smaller-text">
+            We're loading the content, give us a second. This won't take long!
+        </p>
+    </div>
+</div>
+    
+<div id="header-fixed" class="header-dark">
+    <a class="header-icon-left open-left-sidebar" href="#"><i class="fa fa-navicon"></i></a>
+    <a class="header-icon-two open-header-menu disabled" href="#"><i class="fa fa-angle-down"></i></a>
+    <a class="header-logo" href="#"></a>
+    <a class="header-icon-right open-right-sidebar" href="#"><i class="fa fa-envelope-o"></i></a>
+    
+    <div class="header-menu-overlay"></div>
+    <div class="header-menu header-menu-dark">
+        <a href="index.html" class="active-header-item"><i class="fa fa-home"></i>The Latest<i class="fa fa-circle"></i></a>
+        <a href="features-typography.html"><i class="fa fa-cog"></i>Features<i class="fa fa-circle"></i></a>
+        <a href="gallery-square.html"><i class="fa fa-camera"></i>Media<i class="fa fa-circle"></i></a>
+        <a href="page-sitemap.html"><i class="fa fa-file-o"></i>SiteMap<i class="fa fa-circle"></i></a>
+        <a href="contact.html"><i class="fa fa-envelope-o"></i>Contact<i class="fa fa-circle"></i></a>
+        <a href="#" class="close-header-menu"><i class="fa fa-times"></i>Close<i class="fa fa-circle"></i></a>
+    </div> 
+</div> 
+    
+        
+<div id="footer-fixed" class="footer-menu footer-dark disabled">
+    <a href="newspages/newspageAllShortFiction.html" class="active-footer-item footer-mobile"><i class="fa fa-home"></i>All Short Fiction</a>
+    <a href="features-typography.html" class="footer-mobile"><i class="fa fa-cog"></i>Features</a>
+    <a href="gallery-square.html" class="footer-mobile"><i class="fa fa-camera"></i>Media</a>
+    <a href="page-sitemap.html" class="footer-mobile"><i class="fa fa-navicon"></i>Sitemap</a>
+    <a href="contact.html" class="footer-mobile"><i class="fa fa-envelope-o"></i>Contact</a>
+    <a href="#" class="footer-tablet"><i class="fa fa-phone"></i>Call</a>
+    <a href="#" class="footer-tablet"><i class="fa fa-comments"></i>Text</a>
+    <a href="#" class="footer-tablet"><i class="fa fa-facebook"></i>Like</a>
+    <a href="#" class="footer-tablet"><i class="fa fa-twitter"></i>Follow</a>
+</div>
+    
+<div class="gallery-fix"></div> <!-- Important for all pages that have galleries or portfolios -->
+            
+<div class="all-elements">
+        
+    <div class="snap-drawers">
+        <div class="snap-drawer snap-drawer-left sidebar-dark-clean">        
+            <div class="sidebar-header">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-phone"></i></a>
+                <a href="#"><i class="fa fa-comment-o"></i></a>
+                <a class="close-sidebar" href="#"><i class="fa fa-times"></i></a>
+            </div>   
+            
+            <div class="sidebar-logo"></div>
+            
+            <div class="sidebar-divider no-bottom"></div>
+
+            <p class="sidebar-divider">Navigation</p>
+            <div class="sidebar-menu">
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu submenu-active" href="newspage.html">
+                    <i class="fa fa-home bg-blue-dark"></i>
+                        <em>The Latest</em>
+                          
+                        
+                    </a> 
+                   
+                </div>                  
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-quote-left bg-blue-dark"></i>
+                        <em>Short Stories and Poetry</em>
+                     
+                    </a> 
+                    <div class="submenu">
+                        <a class="submenu-item" href="newspageAllShortFiction.html">       <i class="fa fa-angle-right"></i><em>   All Short Fiction       </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageAltPoetics.html">      <i class="fa fa-angle-right"></i><em>  AltPoetics     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageAmericanReader.html">       <i class="fa fa-angle-right"></i><em>  The American Reader        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageAmericanShortFiction.html">         <i class="fa fa-angle-right"></i><em>   American Short Fiction          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageAnthill.html">        <i class="fa fa-angle-right"></i><em>   The Anthill         </em><i class="fa fa-circle"></i></a>
+                        
+                        <a class="submenu-item" href="newspageAuguryBooks.html">       <i class="fa fa-angle-right"></i><em>   Augury Books       </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageBlueMesaReview.html">      <i class="fa fa-angle-right"></i><em>  Blue Mesa Review      </em><i class="fa fa-circle"></i></a>
+                        
+                        <a class="submenu-item" href="newspageBuenosAiresReview.html">         <i class="fa fa-angle-right"></i><em>   Buenos Aires Review          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageCarveMag.html">        <i class="fa fa-angle-right"></i><em>   Carve Magazine        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageChelseaStation.html">       <i class="fa fa-angle-right"></i><em>   Chelsea Station   </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageChicagoLiterati.html">      <i class="fa fa-angle-right"></i><em>  Chicago Literati     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageEcholocationMag.html">       <i class="fa fa-angle-right"></i><em>   Echolocation Magazine   </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageEighteenBridges.html">         <i class="fa fa-angle-right"></i><em>   Eighteen Bridges          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageElectricLiterature.html">        <i class="fa fa-angle-right"></i><em> Electric Literature        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageEscapePod.html">       <i class="fa fa-angle-right"></i><em>   Escape Pod      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageFeatherTale.html">      <i class="fa fa-angle-right"></i><em>   Feathertale      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageGeist.html">       <i class="fa fa-angle-right"></i><em>   Geist   </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageHaydensFerry.html">         <i class="fa fa-angle-right"></i><em>   Hayden's Ferry Review          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageIdahoReview.html">         <i class="fa fa-angle-right"></i><em>   The Idaho Review         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageIndianaReview.html">         <i class="fa fa-angle-right"></i><em>   The Indiana Review          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageJournalOfBisonJack.html">         <i class="fa fa-angle-right"></i><em>   The Journal of Bison Jack          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageLiteraryOrphans.html">         <i class="fa fa-angle-right"></i><em>   Literary Orphans         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageLithub.html">         <i class="fa fa-angle-right"></i><em>   Lithub          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageMadeUpWords.html">         <i class="fa fa-angle-right"></i><em>   Made-Up Words          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageMcsweeneys.html">         <i class="fa fa-angle-right"></i><em>   McSweeneys          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageMichiganQuarterlyReview.html">         <i class="fa fa-angle-right"></i><em>   Michigan Quarterly Review          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageNarrativeNortheast.html">         <i class="fa fa-angle-right"></i><em>   Narrative Northeast          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageNewYorker.html">         <i class="fa fa-angle-right"></i><em>   The New Yorker          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageNightmareMagazine.html">         <i class="fa fa-angle-right"></i><em>   Nightmare Magazine          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageOffingMag.html">         <i class="fa fa-angle-right"></i><em>   Offing Magazines          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageParisReview.html">         <i class="fa fa-angle-right"></i><em>   The Paris Review          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageEveryWritersResource.html">         <i class="fa fa-angle-right"></i><em>   Every Writer's Resource         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspagePoeticEntanglement.html">         <i class="fa fa-angle-right"></i><em>   Poetic Entanglement          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspagePoetryisDead.html">         <i class="fa fa-angle-right"></i><em>   Poetry is Dead          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspagePublicBooks.html">         <i class="fa fa-angle-right"></i><em>   Public Books          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageQuaintMagazine.html">         <i class="fa fa-angle-right"></i><em>   Quaint Magazine         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageQueenMobs.html">         <i class="fa fa-angle-right"></i><em>   Queen Mob's Teahouse          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageRustyToque.html">         <i class="fa fa-angle-right"></i><em>   The Rusty Toque          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageShenandoah.html">         <i class="fa fa-angle-right"></i><em>   Shenandoah         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageShortFictionBreak.html">         <i class="fa fa-angle-right"></i><em>   Short Fiction Break         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageSunMagazine.html">         <i class="fa fa-angle-right"></i><em>   Sun Magazine          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageThreeAMMag.html">         <i class="fa fa-angle-right"></i><em>   3am Magazine          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageTOR.html">         <i class="fa fa-angle-right"></i><em>  Tor          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageTriquarterly.html">         <i class="fa fa-angle-right"></i><em>  Triquarterly        </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageWalrus.html">         <i class="fa fa-angle-right"></i><em>   The Walrus         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageWordhaus.html">         <i class="fa fa-angle-right"></i><em>   Wordhaus          </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageWordsWithoutBorders.html">         <i class="fa fa-angle-right"></i><em>   Words Without Borders         </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageWritersAlmanac.html">         <i class="fa fa-angle-right"></i><em>   Writer's Almanac         </em><i class="fa fa-circle"></i></a>
+                       
+                       
+                    </div>
+                </div>    
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-pagelines bg-blue-dark"></i>
+                        <em>Nonfiction</em>
+                      
+                    </a> 
+                    <div class="submenu">
+                        
+                        <a class="submenu-item" href="newspageAllNonfiction.html">        <i class="fa fa-angle-right"></i><em>  All Nonfiction        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageTheAmericanScholar.html">        <i class="fa fa-angle-right"></i><em>   The American Scholar         </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageArcadiaMagazine.html">       <i class="fa fa-angle-right"></i><em>   Arcadia Magazine         </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageTheAwl.html">   <i class="fa fa-angle-right"></i><em>   The Awl     </em><i class="fa fa-circle"></i></a> 
+                         <a class="submenu-item" href="newspageBarkingMagazine.html">        <i class="fa fa-angle-right"></i><em>  Barking Magazine          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageBelieverMag.html">        <i class="fa fa-angle-right"></i><em>   Believer Magazine          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageBrainPickings.html">       <i class="fa fa-angle-right"></i><em>   Brain Pickings        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageConversationalReading.html">   <i class="fa fa-angle-right"></i><em>   Conversational Reading     </em><i class="fa fa-circle"></i></a>  
+                         <a class="submenu-item" href="newspageFullStop.html">        <i class="fa fa-angle-right"></i><em>   Full Stop         </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageGutsMagazine.html">        <i class="fa fa-angle-right"></i><em>   GUTS Magazine          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageHarpers.html">       <i class="fa fa-angle-right"></i><em>   Harper's         </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageHazlitt.html">        <i class="fa fa-angle-right"></i><em>   Hazlitt       </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageKenyonReview.html">   <i class="fa fa-angle-right"></i><em>   The Kenyon Review     </em><i class="fa fa-circle"></i></a>  
+                         <a class="submenu-item" href="newspageMothPodcast.html">        <i class="fa fa-angle-right"></i><em>  The Moth        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageNarrativeMagazine.html">        <i class="fa fa-angle-right"></i><em>   Narrative Magazine          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageTimesLiterarySupplement.html">       <i class="fa fa-angle-right"></i><em>  Times Literary Supplement         </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageVirginiaQuarterlyReview.html">   <i class="fa fa-angle-right"></i><em>   Virginia Quarterly Review    </em><i class="fa fa-circle"></i></a>  
+                    </div>
+                </div>                          
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-newspaper-o bg-blue-dark"></i>
+                        <em>News and Reviews</em>
+                        
+                    </a> 
+                    <div class="submenu">
+                        <a class="submenu-item" href="newspageAllNewsAndReviews.html">          <i class="fa fa-angle-right"></i><em>   All News and Reviews       </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageBookforum.html">         <i class="fa fa-angle-right"></i><em>   Bookforum      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageBookRiot.html">       <i class="fa fa-angle-right"></i><em>   Book Riot    </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageEcotone.html">        <i class="fa fa-angle-right"></i><em>   Ecotone     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageElectricLiterature.html">         <i class="fa fa-angle-right"></i><em>   Electric Literature  </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageFlavorwire.html">          <i class="fa fa-angle-right"></i><em>   Flavorwire     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageGalleycat.html">         <i class="fa fa-angle-right"></i><em>   Galleycat      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageGlobeandMail.html">       <i class="fa fa-angle-right"></i><em>  Globe and Mail Books    </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageGuardianBooks.html">        <i class="fa fa-angle-right"></i><em>  The Guardian Books     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageKirkusReviews.html">         <i class="fa fa-angle-right"></i><em>   Kirkus Reviews  </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageLATimesBooks.html">      <i class="fa fa-angle-right"></i><em>   LA Times Books       </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageLithub.html">      <i class="fa fa-angle-right"></i><em>  Lithub       </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageLitReactor.html">   <i class="fa fa-angle-right"></i><em>   Lit Reactor      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageLondonReviewOfBooks.html">     <i class="fa fa-angle-right"></i><em>   London Review of Books      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageMalahatReview.html"> <i class="fa fa-angle-right"></i><em>   The Malahat Review        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageMillions.html">      <i class="fa fa-angle-right"></i><em>   The Millions        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageNYReviewOfBooks.html">      <i class="fa fa-angle-right"></i><em>   New York Review of Books       </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageNyTimesBooks.html">   <i class="fa fa-angle-right"></i><em>  New York Times Books Review    </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageNPRBooks.html">     <i class="fa fa-angle-right"></i><em>   NPR Books     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageOmnivoracious.html"> <i class="fa fa-angle-right"></i><em>   Omnivoracious        </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="newspageTorontoStarBooks.html">     <i class="fa fa-angle-right"></i><em>   Toronto Star Books      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageZyzzyva.html"> <i class="fa fa-angle-right"></i><em>   Zyzzyva       </em><i class="fa fa-circle"></i></a>
+                        
+                    </div>
+                </div>                
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-magic bg-blue-dark"></i>
+                        <em>Science Fiction and Fantasy</em>
+                    
+                    </a>
+                    <div class="submenu">
+                        <a class="submenu-item" href="newspageEscapePod.html">      <i class="fa fa-angle-right"></i><em>  Escape Pod        </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageLightspeedMag.html">      <i class="fa fa-angle-right"></i><em>  Lightspeed Magazine      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageNightmareMagazine.html">      <i class="fa fa-angle-right"></i><em>  Nightmare Magazine      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageShimmerMag.html">   <i class="fa fa-angle-right"></i><em>   Shimmer Magazine      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageSciphiJournal.html">     <i class="fa fa-angle-right"></i><em>   SciPhi Journal     </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="newspageTOR.html"> <i class="fa fa-angle-right"></i><em>   Tor      </em><i class="fa fa-circle"></i></a>
+                       
+                    </div>
+                </div>
+                <div>
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-heart-o bg-blue-dark"></i>
+                        <em>Editor's Choice</em>
+                   
+                    </a> 
+                    <div class="submenu">
+                        <a class="submenu-item" href="page-activity.html">  <i class="fa fa-angle-right"></i><em>   Fiction     </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="page-activity.html">  <i class="fa fa-angle-right"></i><em>  Nonfiction     </em><i class="fa fa-circle"></i></a>
+                         <a class="submenu-item" href="page-activity.html">  <i class="fa fa-angle-right"></i><em>  Poetry     </em><i class="fa fa-circle"></i></a>
+           
+                    </div>
+                </div>
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="newspage.html">
+                        <i class="fa fa-star bg-blue-dark"></i>
+                        <em>Author of the Week</em>
+                        
+                    </a> 
+                   
+                </div>   
+                <div>
+                    <a class="menu-item show-submenu" href="newspage.html">
+                        <i class="fa fa-chevron-up bg-blue-dark"></i>
+                        <em>Submit Your Stories</em>
+                        
+                    </a> 
+          
+                </div>
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-newspaper-o bgcolor=#E6E6FA"></i>
+                        <em>Tapestry Originals</em>
+                       
+                    </a> 
+                    <div class="submenu">
+                        <a class="submenu-item" href="news-page.html">      <i class="fa fa-angle-right"></i><em>      Longform         </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="news-page.html">   <i class="fa fa-angle-right"></i><em>      Shortform      </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="news-page.html">     <i class="fa fa-angle-right"></i><em>      Reviews  </em><i class="fa fa-circle"></i></a>
+                    </div> 
+                </div>
+            </div> 
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="https://www.facebook.com/ReadTapestry">
+                    <i class="fa fa-facebook facebook-color"></i>
+                    <em>Facebook</em>
+                </a>                   
+                <a class="menu-item" href="https://twitter.com/tapestryreader">
+                    <i class="fa fa-twitter twitter-color"></i>
+                    <em>Twitter</em>
+                </a>                 
+                <a class="menu-item" href="http://qwiklit.tumblr.com/">
+                    <i class="fa fa-tumblr tumblr-color"></i>
+                    <em>Tumblr</em>
+                </a>                    
+                <a class="menu-item" href="https://www.youtube.com/channel/UCdN_ovKb2-SbULsWyMo4BWQ">
+                    <i class="fa fa-youtube-play youtube-color"></i>
+                    <em>YouTube</em>
+                </a>    
+            </div>
+            
+            <p class="sidebar-divider">Contact Us</p>
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="tel:+123 456 7890">
+                    <i class="fa fa-phone bg-green-dark"></i>
+                    <em>Call Us</em>
+                </a>                   
+                <a class="menu-item" href="sms:+123 456 7890">
+                    <i class="fa fa-comment-o bg-blue-dark"></i>
+                    <em>Text Us</em>
+                </a>                 
+                <a class="menu-item" href="mailto:someone@yoursite.com?subject=Message from ThemeForest">
+                    <i class="fa fa-envelope-o bg-magenta-dark"></i>
+                    <em>Mail Us</em>
+                </a>     
+                <a class="menu-item close-sidebar" href="#">
+                    <i class="fa fa-times bg-red-dark"></i>
+                    <em>Close</em>
+                </a>
+            </div>
+            
+            <p class="sidebar-footer">Tapestry Media 2016. All rights reserved</p>
+            
+        </div>
+        
+        <!--Right Sidebar -->
+        
+        <div class="snap-drawer snap-drawer-right sidebar-dark-clean">
+            <div class="sidebar-header">
+                <a class="close-sidebar" href="#"><i class="fa fa-times"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-phone"></i></a>
+                <a href="#"><i class="fa fa-comment-o"></i></a>
+            </div>   
+            
+            <div class="sidebar-logo"></div>
+                        
+            <div class="sidebar-divider no-bottom"></div>
+            
+            <p class="sidebar-divider">Template Settings</p>
+            
+            <div class="sidebar-menu">
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-refresh bg-red-dark"></i>
+                        <em>Change Colors</em>
+                      
+                    </a> 
+                    <div class="submenu change-colors">
+                        <div>
+                            <a class="submenu-item header-light-toggle" href="#">                               <i class="fa fa-angle-right"></i><em>   Header Light    </em><i class="fa fa-circle"></i></a>
+                            <a class="submenu-item submenu-item-active header-dark-toggle" href="#">            <i class="fa fa-angle-right"></i><em>   Header Dark     </em><i class="fa fa-circle"></i></a>
+                        </div>  
+                        <div>
+                            <a class="submenu-item footer-light-toggle" href="#">                               <i class="fa fa-angle-right"></i><em>   Footer Light    </em><i class="fa fa-circle"></i></a>
+                            <a class="submenu-item submenu-item-active footer-dark-toggle" href="#">            <i class="fa fa-angle-right"></i><em>   Footer Dark    </em><i class="fa fa-circle"></i></a>
+                        </div>
+                        <div>
+                            <a class="submenu-item sidebars-light-toggle" href="#">                             <i class="fa fa-angle-right"></i><em>   Sidebar Light    </em><i class="fa fa-circle"></i></a>
+                            <a class="submenu-item sidebars-dark-toggle" href="#">                              <i class="fa fa-angle-right"></i><em>   Sidebar Dark    </em><i class="fa fa-circle"></i></a>
+                            <a class="submenu-item sidebars-light-icon-toggle" href="#">                        <i class="fa fa-angle-right"></i><em>   Sidebar Light Icons    </em><i class="fa fa-circle"></i></a>
+                            <a class="submenu-item-active submenu-item sidebars-dark-icon-toggle" href="#">     <i class="fa fa-angle-right"></i><em>   Sidebar Dark Icons    </em><i class="fa fa-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu" href="#">
+                        <i class="fa fa-navicon bg-blue-dark"></i>
+                        <em>Menu Settings</em>
+                        <strong>4</strong>
+                    </a> 
+                    <div class="submenu change-colors">
+                        <div>
+                            <a class="submenu-item enable-footer-menu" href="#"><i class="fa fa-angle-right"></i><em>   Enable Footer Menu    </em><i class="fa fa-circle"></i></a>
+                            <a class="submenu-item submenu-item-active disable-footer-menu" href="#"><i class="fa fa-angle-right"></i><em>   Disable Footer Menu    </em><i class="fa fa-circle"></i></a>
+                        </div>                        
+                        <div>
+                            <a class="submenu-item enable-header-menu" href="#"><i class="fa fa-angle-right"></i><em>   Enable Header Menu    </em><i class="fa fa-circle"></i></a>
+                            <a class="submenu-item submenu-item-active disable-header-menu" href="#"><i class="fa fa-angle-right"></i><em>   Disable Header Menu    </em><i class="fa fa-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        
+            <p class="sidebar-divider">Let's get social</p>
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="#">
+                    <i class="fa fa-facebook facebook-color"></i>
+                    <em>Facebook</em>
+                </a>                   
+                <a class="menu-item" href="#">
+                    <i class="fa fa-twitter twitter-color"></i>
+                    <em>Twitter</em>
+                </a>                 
+                <a class="menu-item" href="#">
+                    <i class="fa fa-google-plus google-color"></i>
+                    <em>Google Plus</em>
+                </a>                    
+                <a class="menu-item" href="#">
+                    <i class="fa fa-youtube-play youtube-color"></i>
+                    <em>YouTube</em>
+                </a>    
+            </div>
+                        
+            <p class="sidebar-divider">Send an email</p>
+            
+            <div class="container no-bottom">
+                <div class="sidebar-form contact-form no-bottom"> 
+                    <em>
+                        Your message is important to us and we reply to all of them in less than 48 hours.
+                    </em>
+                    <div class="formSuccessMessageWrap" id="formSuccessMessageWrap">
+                        Awesome! We'll get back to you!
+                    </div>
+                    <form action="php/contact.php" method="post" class="contactForm" id="contactForm">
+                        <fieldset>
+                            <div class="formValidationError" id="contactNameFieldError">Name is required!</div>             
+                            <div class="formValidationError" id="contactEmailFieldError">Mail address required!</div> 
+                            <div class="formValidationError" id="contactEmailFieldError2">Mail address must be valid!</div> 
+                            <div class="formValidationError" id="contactMessageTextareaError">Message field is empty!</div>   
+                            <div class="formFieldWrap">
+                                <input onfocus="if (this.value=='Name') this.value = ''" onblur="if (this.value=='') this.value = 'Name'" type="text" name="contactNameField" value="Name" class="contactField requiredField" id="contactNameField"/>
+                            </div>
+                            <div class="formFieldWrap">
+                                <input onfocus="if (this.value=='Email') this.value = ''" onblur="if (this.value=='') this.value = 'Email'" type="text" name="contactEmailField" value="Email" class="contactField requiredField requiredEmailField" id="contactEmailField"/>
+                            </div>
+                            <div class="formTextareaWrap">
+                                <textarea onfocus="if (this.value=='Message') this.value = ''" onblur="if (this.value=='') this.value = 'Message'" name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea">Message</textarea>
+                            </div>
+                            <div class="formSubmitButtonErrorsWrap">
+                                <input type="submit" class="buttonWrap button button-green contactSubmitButton" id="contactSubmitButton" value="SUBMIT" data-formId="contactForm"/>
+                            </div>
+                        </fieldset>
+                    </form>       
+                </div>
+            </div>
+            
+            <p class="sidebar-divider">Contact Us</p>
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="tel:+123 456 7890">
+                    <i class="fa fa-phone bg-green-dark"></i>
+                    <em>Call Us</em>
+                </a>                   
+                <a class="menu-item" href="sms:+123 456 7890">
+                    <i class="fa fa-comment-o bg-blue-dark"></i>
+                    <em>Text Us</em>
+                </a>                 
+                <a class="menu-item" href="mailto:someone@yoursite.com?subject=Message from ThemeForest">
+                    <i class="fa fa-envelope-o bg-magenta-dark"></i>
+                    <em>Mail Us</em>
+                </a>    
+                <a class="menu-item close-sidebar" href="#">
+                    <i class="fa fa-times bg-red-dark"></i>
+                    <em>Close</em>
+                    <i class="fa fa-circle"></i>
+                </a>
+            </div>
+            
+            <p class="sidebar-footer">Copyright Tapestry Media 2016. All rights reserved</p>
+        </div>        
+        
+        <div id="content" class="snap-content">
+        
+            <div class="coverpage-slider coverpage-news" data-snap-ignore="true">
+                <div class="cover-slide cover-screen bg-5">
+                    <div class="cover-news">
+                         
+                        <h4>Tapestry Story Reader</h4>
+                        <h5 class="sub" color="teal">Short stories, nonfiction and more from dozens of literary magazines and websites. All in one place.</h5>
+                        <p class="half-bottom">
+                            Read the latest and the best short stories on the web.                        
+                        </p>
+                         <div class="readmore">
+                                <button class="button-news">Read Now</button>
+
+                            </div>
+                    </div>
+                    <div class="overlay overlay-news"></div>
+                </div>                
+                <div class="cover-slide cover-screen bg-2">
+                    <div class="cover-news">
+                        <h4>Designed as coverslider but with multiple variatins added!</h4>
+                        <h5>1 hour ago <a href="#">by Enabled</a></h5>
+                        <p class="half-bottom">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis nec sapien ac cursus. Vestibulum in imperdiet augue.                        
+                        </p>
+                        <a href="#" class="button-news">Read More</a>
+                    </div>
+                    <div class="overlay overlay-news"></div>
+                </div>                 
+                <div class="cover-slide cover-screen bg-5">
+                    <div class="cover-news">
+                        <h4>Simple, stable, app styled to give you exactly a native expereince</h4>
+                        <h5>1 hour ago <a href="#">by Enabled</a></h5>
+                        <p class="half-bottom">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis nec sapien ac cursus. Vestibulum in imperdiet augue.                        
+                        </p>
+                        <a href="#" class="button-news">Read More</a>
+                    </div>
+                    <div class="overlay overlay-news"></div>
+                </div>   
+            </div>
+            
+                  <div class="container">
+
+                 
+                        
+                        		<ul class="grid effect-3" id="grid">
+				<li><a href="http://drbl.in/fWMM"><img src="gridloadingeffects/images/1.jpg"></a></li>
+				<li><a href="http://drbl.in/fWPV"><img src="gridloadingeffects/images/3.jpg"></a></li>
+				<li><a href="http://drbl.in/fWMT"><img src="gridloadingeffects/images/4.jpg"></a></li>
+				<li><a href="http://drbl.in/fQdt"><img src="gridloadingeffects/images/12.png"></a></li>
+				<li><a href="http://drbl.in/fHaa"><img src="gridloadingeffects/images/13.png"></a></li>
+				<li><a href="http://drbl.in/gXMo"><img src="gridloadingeffects/images/10.png"></a></li>
+				<li><a href="http://drbl.in/gXMn"><img src="gridloadingeffects/images/9.jpg"></a></li>
+				<li><a href="http://drbl.in/fzYo"><img src="gridloadingeffects/images/2.jpg"></a></li>
+				<li><a href="http://drbl.in/fARU"><img src="gridloadingeffects/images/14.png"></a></li>
+				<li><a href="http://drbl.in/fGhI"><img src="gridloadingeffects/images/5.jpg"></a></li>
+				<li><a href="http://drbl.in/fKCf"><img src="gridloadingeffects/images/6.jpg"></a></li>
+				<li><a href="http://drbl.in/fLBG"><img src="gridloadingeffects/images/7.jpg"></a></li>
+				<li><a href="http://drbl.in/fPEY"><img src="gridloadingeffects/images/8.jpg"></a></li>
+				<li><a href="http://drbl.in/fWwG"><img src="gridloadingeffects/images/9.jpg"></a></li>
+				<li><a href="http://drbl.in/fQdt"><img src="gridloadingeffects/images/12.png"></a></li>
+				<li><a href="http://drbl.in/fHaa"><img src="gridloadingeffects/images/13.png"></a></li>
+				<li><a href="http://drbl.in/gXMo"><img src="gridloadingeffects/images/10.png"></a></li>
+				<li><a href="http://drbl.in/gXMn"><img src="gridloadingeffects/images/11.png"></a></li>
+				<li><a href="http://drbl.in/fzYo"><img src="gridloadingeffects/images/2.jpg"></a></li>
+				<li><a href="http://drbl.in/fARU"><img src="gridloadingeffects/images/14.png"></a></li>
+				<li><a href="http://drbl.in/fWMM"><img src="gridloadingeffects/images/1.jpg"></a></li>
+				<li><a href="http://drbl.in/fWPV"><img src="gridloadingeffects/images/3.jpg"></a></li>
+				<li><a href="http://drbl.in/fWMT"><img src="gridloadingeffects/images/4.jpg"></a></li>
+				<li><a href="http://drbl.in/fGhI"><img src="gridloadingeffects/images/5.jpg"></a></li>
+				<li><a href="http://drbl.in/fKCf"><img src="gridloadingeffects/images/6.jpg"></a></li>
+				<li><a href="http://drbl.in/fLBG"><img src="gridloadingeffects/images/7.jpg"></a></li>
+				<li><a href="http://drbl.in/fPEY"><img src="gridloadingeffects/images/8.jpg"></a></li>
+				<li><a href="http://drbl.in/fWwG"><img src="gridloadingeffects/images/9.jpg"></a></li>
+				<li><a href="http://drbl.in/fQdt"><img src="gridloadingeffects/images/12.png"></a></li>
+				<li><a href="http://drbl.in/fHaa"><img src="gridloadingeffects/images/13.png"></a></li>
+				<li><a href="http://drbl.in/gXMo"><img src="gridloadingeffects/images/10.png"></a></li>
+				<li><a href="http://drbl.in/gXMn"><img src="gridloadingeffects/images/11.png"></a></li>
+				<li><a href="http://drbl.in/fzYo"><img src="gridloadingeffects/images/2.jpg"></a></li>
+				<li><a href="http://drbl.in/fARU"><img src="gridloadingeffects/images/14.png"></a></li>
+				<li><a href="http://drbl.in/fWMM"><img src="gridloadingeffects/images/1.jpg"></a></li>
+				<li><a href="http://drbl.in/fWPV"><img src="gridloadingeffects/images/3.jpg"></a></li>
+				<li><a href="http://drbl.in/fWMT"><img src="gridloadingeffects/images/4.jpg"></a></li>
+				<li><a href="http://drbl.in/fGhI"><img src="gridloadingeffects/images/5.jpg"></a></li>
+				<li><a href="http://drbl.in/fKCf"><img src="gridloadingeffects/images/6.jpg"></a></li>
+				<li><a href="http://drbl.in/fLBG"><img src="gridloadingeffects/images/7.jpg"></a></li>
+				<li><a href="http://drbl.in/fPEY"><img src="gridloadingeffects/images/8.jpg"></a></li>
+				<li><a href="http://drbl.in/fWwG"><img src="gridloadingeffects/images/9.jpg"></a></li>
+				<li><a href="http://drbl.in/fQdt"><img src="gridloadingeffects/images/12.png"></a></li>
+				<li><a href="http://drbl.in/fHaa"><img src="gridloadingeffects/images/13.png"></a></li>
+				<li><a href="http://drbl.in/gXMo"><img src="gridloadingeffects/images/10.png"></a></li>
+				<li><a href="http://drbl.in/gXMn"><img src="gridloadingeffects/images/11.png"></a></li>
+				<li><a href="http://drbl.in/fzYo"><img src="gridloadingeffects/images/2.jpg"></a></li>
+				<li><a href="http://drbl.in/fARU"><img src="gridloadingeffects/images/14.png"></a></li>
+				<li><a href="http://drbl.in/fWMM"><img src="gridloadingeffects/images/1.jpg"></a></li>
+				<li><a href="http://drbl.in/fWPV"><img src="gridloadingeffects/images/3.jpg"></a></li>
+				<li><a href="http://drbl.in/fWMT"><img src="gridloadingeffects/images/4.jpg"></a></li>
+				<li><a href="http://drbl.in/fGhI"><img src="gridloadingeffects/images/5.jpg"></a></li>
+				<li><a href="http://drbl.in/fKCf"><img src="gridloadingeffects/images/6.jpg"></a></li>
+				<li><a href="http://drbl.in/fLBG"><img src="gridloadingeffects/images/7.jpg"></a></li>
+				<li><a href="http://drbl.in/fPEY"><img src="gridloadingeffects/images/8.jpg"></a></li>
+				<li><a href="http://drbl.in/fWwG"><img src="gridloadingeffects/images/9.jpg"></a></li>
+				<li><a href="http://drbl.in/fQdt"><img src="gridloadingeffects/images/12.png"></a></li>
+				<li><a href="http://drbl.in/fHaa"><img src="gridloadingeffects/images/13.png"></a></li>
+				<li><a href="http://drbl.in/gXMo"><img src="gridloadingeffects/images/10.png"></a></li>
+				<li><a href="http://drbl.in/gXMn"><img src="gridloadingeffects/images/11.png"></a></li>
+				<li><a href="http://drbl.in/fzYo"><img src="gridloadingeffects/images/2.jpg"></a></li>
+				<li><a href="http://drbl.in/fARU"><img src="gridloadingeffects/images/14.png"></a></li>
+				<li><a href="http://drbl.in/fWMM"><img src="gridloadingeffects/images/1.jpg"></a></li>
+				<li><a href="http://drbl.in/fWPV"><img src="gridloadingeffects/images/3.jpg"></a></li>
+				<li><a href="http://drbl.in/fWMT"><img src="gridloadingeffects/images/4.jpg"></a></li>
+				<li><a href="http://drbl.in/fGhI"><img src="gridloadingeffects/images/5.jpg"></a></li>
+				<li><a href="http://drbl.in/fKCf"><img src="gridloadingeffects/images/6.jpg"></a></li>
+				<li><a href="http://drbl.in/fLBG"><img src="gridloadingeffects/images/7.jpg"></a></li>
+				<li><a href="http://drbl.in/fPEY"><img src="gridloadingeffects/images/8.jpg"></a></li>
+				<li><a href="http://drbl.in/fWwG"><img src="gridloadingeffects/images/9.jpg"></a></li>
+				<li><a href="http://drbl.in/fQdt"><img src="gridloadingeffects/images/12.png"></a></li>
+				<li><a href="http://drbl.in/fHaa"><img src="gridloadingeffects/images/13.png"></a></li>
+				<li><a href="http://drbl.in/gXMo"><img src="gridloadingeffects/images/10.png"></a></li>
+				<li><a href="http://drbl.in/gXMn"><img src="gridloadingeffects/images/11.png"></a></li>
+				<li><a href="http://drbl.in/fzYo"><img src="gridloadingeffects/images/2.jpg"></a></li>
+				<li><a href="http://drbl.in/fARU"><img src="gridloadingeffects/images/14.png"></a></li>
+				<li><a href="http://drbl.in/fWMM"><img src="gridloadingeffects/images/1.jpg"></a></li>
+				<li><a href="http://drbl.in/fWPV"><img src="gridloadingeffects/images/3.jpg"></a></li>
+				<li><a href="http://drbl.in/fWMT"><img src="gridloadingeffects/images/4.jpg"></a></li>
+				<li><a href="http://drbl.in/fGhI"><img src="gridloadingeffects/images/5.jpg"></a></li>
+				<li><a href="http://drbl.in/fKCf"><img src="gridloadingeffects/images/6.jpg"></a></li>
+				<li><a href="http://drbl.in/fLBG"><img src="gridloadingeffects/images/7.jpg"></a></li>
+				<li><a href="http://drbl.in/fPEY"><img src="gridloadingeffects/images/8.jpg"></a></li>
+				<li><a href="http://drbl.in/fWwG"><img src="gridloadingeffects/images/9.jpg"></a></li>
+				<li><a href="http://drbl.in/fWPV"><img src="gridloadingeffects/images/3.jpg"></a></li>
+				<li><a href="http://drbl.in/fGhI"><img src="gridloadingeffects/images/5.jpg"></a></li>
+				<li><a href="http://drbl.in/fzYo"><img src="gridloadingeffects/images/2.jpg"></a></li>
+			</ul>
+		</div>
+               
+  
+  
+            
+            <div class="content">
+                <div class="decoration"></div>
+               
+                <div class="container">
+                    
+                    <div class="rssfeed">  
+                    <div id="articles">
+                        
+                      
+                      
+                        
+                    </div>
+                        </div> 
+                    </div>
+                    
+          
+                    
+                    
+                    <div class="news-column">
+                        <a href="#"><img src="images/pictures/1.jpg" alt="img"></a>
+                        <h4>This is a simple news title you can add to a column image.</h4>
+                        <strong>Posted in <a href="#">Fun</a> by <a href="#">Enabled</a></strong>
+                    </div>                
+                    <div class="news-column">
+                        <a href="#"><img src="images/pictures/2.jpg" alt="img"></a>
+                        <h4>You can use multiple columns that will stack on tablets</h4>
+                        <strong>Posted in <a href="#">Fun</a> by <a href="#">Enabled</a></strong>
+                    </div>                
+                    <div class="news-column">
+                        <a href="#"><img src="images/pictures/3.jpg" alt="img"></a>
+                        <h4>This is a simple news title you can add to a column image.</h4>
+                        <strong>Posted in <a href="#">Fun</a> by <a href="#">Enabled</a></strong>
+                    </div>                
+                    <div class="news-column">
+                        <a href="#"><img src="images/pictures/4.jpg" alt="img"></a>
+                        <h4>You can use multiple columns that will stack on tablets</h4>
+                        <strong>Posted in <a href="#">Fun</a> by <a href="#">Enabled</a></strong>
+                    </div>
+                       
+              
+    <script>
+    jQuery(document).ready(function($){
+        
+        
+      //store publication names
+     
+      var pubNames = [
+          {
+              "searchstring" : "bisonjack" ,
+              "pub" : "The Journal of Bison Jack",
+              "background" : "images/backgrounds/journalofbisonjack.png"
+          },
+          {   "searchstring": "parisreview",
+              "pub" : "The Paris Review",
+           "background" : "images/backgrounds/parisreview.png"
+          },
+          {
+              "searchstring": "wwborders",
+              "pub" : "Words Without Borders",
+              "background" : "images/backgrounds/wordswithoutborders.png"
+          },
+           {
+              "searchstring": "electricliterature",
+              "pub" : "Electric Literature",
+              "background" : "images/backgrounds/electriclit.png"
+          },
+           {
+              "searchstring": "anthill",
+              "pub" : "The Anthill",
+              "background" : "images/backgrounds/theanthill.png"
+          },
+           {
+              "searchstring": "quaint",
+              "pub" : "Quaint Magazine",
+              "background" :  "images/backgrounds/quaintmagazine.png"
+          },
+          {
+              "searchstring": "atticus",
+              "pub" : "The Atticus Review",
+              "background" :  "images/backgrounds/atticusreview.png"
+          },
+          {
+              "searchstring": "brainpickings",
+              "pub" : "Brain Pickings",
+              "background" :  "images/backgrounds/brainpickings.png"
+          },
+            {
+              "searchstring": "deadmule",
+              "pub" : "Dead Mule",
+              "background" : "images/backgrounds/deadmule.png"
+          },
+            {
+              "searchstring": "eighteen",
+              "pub" : "Eighteen Bridges",
+              "background" : "images/backgrounds/eighteenbridges.png"
+          },
+            {
+              "searchstring": "hazlitt",
+              "pub" : "Hazlitt",
+              "background" : "images/backgrounds/hazlitt.png"
+          },
+           {
+              "searchstring": "offing",
+              "pub" : "The Offing Magazine",
+              "background" :  "images/backgrounds/offingmagazine.png"
+          },
+   /*        {
+              "searchstring": "poeticentanglement",
+              "pub" : "Poetic Entaglement",
+              "background" : "background" : "images/backgrounds/poeticentaglement.png"
+          }, */
+          {
+              "searchstring": "mcsweeney",
+              "pub" : "McSweeneys",
+              "background" :  "images/backgrounds/mcsweeneys.png"
+          },
+          {
+              "searchstring": "portlandreview",
+              "pub" : "Portland Review",
+              "background" : "images/backgrounds/portlandreview.png"
+          },
+          {
+              "searchstring": "feathertale",
+              "pub" : "Feathertale",
+              "background" :  "images/backgrounds/feathertale.png"
+          },
+  /*         {
+              "searchstring": "necessaryfiction",
+              "pub" : "Necessary Fiction",
+              "background" : "images/backgrounds/necessaryfiction.png"
+          }, */
+          {
+              "searchstring": "mastersreview",
+              "pub" : "The Master's Review",
+              "background" :  "images/backgrounds/mastersreview.png"
+          },
+           {
+              "searchstring": "chicagolit",
+              "pub" : "Chicago Literati",
+              "background" : "images/backgrounds/chicagoliterati.png"
+          },
+          {
+              "searchstring": "3am",
+              "pub" : "3am Magazine",
+              "background" : "images/backgrounds/3ammagazine.png"
+          },
+          {
+              "searchstring": "buenosaires",
+              "pub" : "The Buenos Aires Review",
+              "background" : "images/backgrounds/buenosairesreview.png"
+          },
+          {
+              "searchstring": "augury",
+              "pub" : "Augury Books",
+              "background" : "images/backgrounds/augurybooks.png"
+          },
+          {
+              "searchstring": "carvezine",
+              "pub" : "Carve Magazine",
+              "background" : "images/backgrounds/carvemag.png"
+          },
+          
+         {
+              "searchstring": "americanshortfiction",
+              "pub" : "American Short Fiction",
+              "background" :  "images/backgrounds/americanshortfiction.png"
+          },
+           {
+              "searchstring": "publicbooks",
+              "pub" : "Public Books",
+              "background" : "images/backgrounds/publicbooks.png"
+          },
+           {
+              "searchstring": "pitheadchapel",
+              "pub" : "Pithead Chapel",
+              "background" :  "images/backgrounds/pitheadchapel.png"
+          },
+    /*        {
+              "searchstring": "pshares",
+              "pub" : "Ploughshares",
+              "background" : "images/backgrounds/.png"
+          }, */
+          {
+              "searchstring": "thewalrus",
+              "pub" : "The Walrus",
+              "background" :  "images/backgrounds/thewalrus.png"
+          },
+           {
+              "searchstring": "theawl",
+              "pub" : "The Awl",
+              "background" : "images/backgrounds/theawl.png"
+          },
+           {
+              "searchstring": "harpers",
+              "pub" : "Harper's",
+              "background" :  "images/backgrounds/harpers.png"
+          },
+           {
+              "searchstring": "theamericanreader",
+              "pub" : "The American Reader",
+              "background" :"images/backgrounds/theamericanreader.png"
+          },
+           {
+              "searchstring": "newyorker",
+              "pub" : "The New Yorker",
+              "background" : "images/backgrounds/newyorker.png"
+          },
+          
+           {
+              "searchstring": "rustytoque",
+              "pub" : "The Rusty Toque",
+              "background" : "images/backgrounds/rustytoque.png"
+          },
+          
+           {
+              "searchstring": "poetryisdead",
+              "pub" : "Poetry is Dead",
+              "background" : "images/backgrounds/poetryisdead.png"
+          },
+          
+          {
+              "searchstring": "tor.com",
+              "pub" : "Poetry is Dead",
+              "background" :  "images/backgrounds/torbooks.png"
+          },
+           {
+              "searchstring": "escapepod",
+              "pub" : "Poetry is Dead",
+              "background" :  "images/backgrounds/escapepod.png"
+          },
+          {
+              "searchstring": "lightspeed",
+              "pub" : "Lightspeed Magazine",
+              "background" : "images/backgrounds/lightspeedmag.png"
+          },
+          {
+              "searchstring": "guts",
+              "pub" : "Guts Magazine",
+              "background" :  "images/backgrounds/guts.png"
+          },
+          {
+              "searchstring": "believermag",
+              "pub" : "Believer Magazine",
+              "background" :  "images/backgrounds/believermag.png"
+          },
+          {
+              "searchstring": "apex-mag",
+              "pub" : "Apex Magazine",
+              "background" :  "images/backgrounds/apexmag.png"
+          },
+           {
+              "searchstring": "shortfictionbreak",
+              "pub" : "Short Fiction Break",
+              "background" : "images/backgrounds/shortfictionbreak.png"
+          },
+    /*       {
+              "searchstring": "autumnsky",
+              "pub" : "Autumn Sky Poetry Daily",
+              "background" : "background" : "images/backgrounds/.png"
+          },
+          {
+              "searchstring": "nereview",
+              "pub" : "Northeast Review",
+              "background" : "background" : "images/backgrounds/nereview.png"
+          }, */
+          {
+              "searchstring": "writersalmanac",
+              "pub" : "writersalmanac",
+              "background" : "images/backgrounds/writersalmanac.png"
+          },
+           {
+              "searchstring": "triquarterly",
+              "pub" : "Triquarterly",
+              "background" :  "images/backgrounds/triquarterly.png"
+          },
+         
+           {
+              "searchstring": "thesunmag",
+              "pub" : "The Sun Magazine",
+              "background" : "images/backgrounds/sunmagazine.png"
+          },
+           {
+              "searchstring": "thebarking",
+              "pub" : "The Barking Magazine",
+              "background" : "images/backgrounds/thebarking.png"
+          },
+          {
+              "searchstring": "idahoreview",
+              "pub" : "The Idaho Review",
+              "background" :  "images/backgrounds/idahoreview.png"
+          },
+          {
+              "searchstring": "americanscholar",
+              "pub" : "The American Scholar",
+              "background" : "images/backgrounds/americanscholar.png"
+          },
+          {
+              "searchstring": "chelseastation",
+              "pub" : "Chelsea Station",
+              "background" :  "images/backgrounds/chelseastation.png"
+          },
+ /*         {
+              "searchstring": "pen.org",
+              "pub" : "PEN",
+              "background" :  "images/backgrounds/.png"
+          }, */
+          {
+              "searchstring": "kenyonreview",
+              "pub" : "Kenyon Review",
+              "background" : "images/backgrounds/kenyonreview.png"
+          },
+   /*       {
+              "searchstring": "narrativemag",
+              "pub" : "Narrative Magazine",
+              "background" : "images/backgrounds/.png"
+          }, */
+          {
+              "searchstring": "kirkus",
+              "pub" : "Kirkus Review",
+              "background" :  "images/backgrounds/kirkus.png"
+          },
+          {
+              "searchstring": "queensmobs",
+              "pub" : "Queen Mob's Teahouse",
+              "background" :  "images/backgrounds/queenmobs.png"
+          },
+   /*        {
+              "searchstring": "galleycat",
+              "pub" : "Galleycat",
+              "background" : "images/backgrounds/.png"
+          }, */
+          {
+              "searchstring": "lrb.co.uk",
+              "pub" : "The London Review of Books",
+              "background" :  "images/backgrounds/lrb.png"
+          },
+          {
+              "searchstring": "npr.org",
+              "pub" : "NPR",
+              "background" :   "images/backgrounds/npr.png"
+          },
+           {
+              "searchstring": "omnivoracious",
+              "pub" : "Omnivoracious",
+              "background" :  "images/backgrounds/omnivoracious.png"
+          },
+           {
+              "searchstring": "themillions",
+              "pub" : "The Millions",
+              "background" :   "images/backgrounds/themillions.png"
+          },
+          {
+              "searchstring": "latimes",
+              "pub" : "The Los Angles Times Books",
+              "background" :   "images/backgrounds/latimes.png"
+          },
+           {
+              "searchstring": "lithub",
+              "pub" : "Literary Hub",
+              "background" :  "images/backgrounds/lithub.png"
+          },
+           {
+              "searchstring": "bookriot",
+              "pub" : "Book Riot",
+              "background" : "images/backgrounds/bookriot.png"
+          },
+          {
+              "searchstring": "nybooks",
+              "pub" : "New York Review of Books",
+              "background" : "images/backgrounds/nybooks.png"
+          },
+          {
+              "searchstring": "globeandmail",
+              "pub" : "Globe and Mail Books",
+              "background" :"images/backgrounds/theglobeandmail.png"
+          },
+          {
+              "searchstring": "worldliteraturetoday",
+              "pub" : "World Literature Today",
+              "background" :  "images/backgrounds/wlt.png"
+          },
+          {
+              "searchstring": "theguardian",
+              "pub" : "The Guardian",
+              "background" :"images/backgrounds/theguardian.png"
+          },
+           {
+              "searchstring": "flavorwire",
+              "pub" : "Flavorwire",
+              "background" : "images/backgrounds/flavorwire.png"
+          },
+          {
+              "searchstring": "nytimes",
+              "pub" : "The New York Times Books",
+              "background" : "images/backgrounds/nyt.png"
+          },
+           {
+              "searchstring": "medium.com",
+              "pub" : "Made-Up Words",
+              "background" :  "images/backgrounds/madeupwords.png"
+          },
+          {
+              "searchstring": "typepad",
+              "pub" : "Times Literary Supplement",
+              "background" : "images/backgrounds/timeslitsupplement.png"
+          },
+          {
+              "searchstring": "wordhaus",
+              "pub" : "Wordhaus",
+              "background" : "images/backgrounds/wordhaus.png"
+          },
+          {
+              "searchstring": "vqronline",
+              "pub" : "The Virginia Quarterly Review",
+              "background" : "images/backgrounds/vqr.png"
+          },
+             {
+              "searchstring": "rattle",
+              "pub" : "Rattle",
+              "background" :"images/backgrounds/rattle.png"
+          },
+           {
+              "searchstring": "literaryorphans",
+              "pub" : "Literary Orphans",
+              "background" : "images/backgrounds/litorphans.png"
+          },
+          {
+              "searchstring": "sciphi",
+              "pub" : "Sci Phi Journal",
+              "background" :  "images/backgrounds/sciphijournal.png"
+          },
+          {
+              "searchstring": "litreact",
+              "pub" : "Lit Reactor",
+              "background" : "images/backgrounds/litreactor.png"
+          },
+          {
+              "searchstring": "nightmare-mag",
+              "pub" : "Nightmare Magazine",
+              "background" : "images/backgrounds/nightmaremag.png"
+          },
+      ];
+      
+
+      //make sure to append &callback=?
+      $.ajax({
+        url: "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=1000&q=http%3A//mix.chimpfeedr.com/86c2c-TapestrySenegal2&num=100",
+        dataType: "jsonp"
+      })
+      .success(function(d){
+      
+        var allEntries =  d.responseData.feed.entries;
+          
+          
+        // Go through feed, look for link, and do pattern match, add new property title if it find it
+        allEntries.forEach(function(d){
+            var link = d.link.toLowerCase();
+            var pub = "";
+            var background = "";
+            
+            pubNames.map(function(e){ return e.searchstring; }).forEach(function(k, i){
+                if(link.match(k)){
+                    title = pubNames[i].pub; 
+                    background = pubNames[i].background;
+                } 
+            });
+            d.pub = title;
+            d.background = background;
+        });
+        
+          
+          console.log(allEntries);
+          
+        for(var i=0; i < allEntries.length; i++ ){
+            
+        /*
+        
+            
+        
+        */
+            
+            
+         // $("#articles").append("<div"> + allEntries[i] + "div"; 
+            $("#articles").append(
+                                  
+                                  "<div class=\"publication-box\" style=\"background-image:url(" + allEntries[i].background + ");\">"   +
+                                  "<h2>" +
+                                  "<a href=\"" +
+                                  allEntries[i].link +
+                                  "\">" +
+                                  allEntries[i].title +
+                                  "</a>" +
+                                  "</h2>" +
+                                  "<h3>" +
+                                  "<a href=\"" +
+                                  allEntries[i].link +
+                                  "\">" +
+                                  "<h4>" +
+                                  allEntries[i].author +
+                                  "</h4>" +
+                                 
+                                  "</a>" +
+                                  "</h3>"+
+                                  "<div class=\"description\"" +  
+                                  "<h4>" +
+                                  "<a href=\"" +
+                                  allEntries[i].link +
+                                  "\">" +
+                                  allEntries[i].contentSnippet +
+                                  "</h4>"  +
+                                  "\ " +
+                                  "</div>" +
+                            
+                                  "<p>"  +
+                                  allEntries[i].pub +
+                                  "</p>" +
+                                  "</div>" 
+                                  
+                                  );     
+            
+           
+      //  $("#articles").append("<p>" + allEntries[i].contentSnippet + "</p>" + "<h4>" + "Read More -->" + "</h4>");    
+          $("#articles").css("text-align", "left");
+          
+            
+//          for(var j=0; j < pubNames.length; j++){
+//              if($("h6:contains(" + pubNames[j].searchstring + ")").length){
+//                $("h6:contains(" + pubNames[j].searchstring + ")").text(pubNames[j].title);
+//              }
+//          }
+            
+          //$('h6:contains("bisonjack")').prev('h2' > 'p').append("<h3>The Journal of Bison Jack</h3>");
+            
+    
+   /*    if ($('#articles > h6:contains("TheParisReviewBlog")').length > 0) {
+           $("h2").append("<h3>" + "The Paris Review" + "</h3"); } */
+            
+       if(allEntries[i].hasOwnProperty("content")){
+            $("h2").css("background-color", "transparent");}
+            
+       }
+          
+        if("#articles".hasOwnProperty('img')){
+        $(allEntries.content > "p").css("color" , "red");
+       }
+       
+       if(allEntries[i].hasOwnProperty("content")){
+        $("#articles").append("<h2>The Writers Almanac</h2>")
+        ;}
+
+      })
+      
+    });
+        
+        
+    </script>
+        <script src="gridloadingeffects/js/masonry.pkgd.min.js"></script>
+		<script src="gridloadingeffects/js/imagesloaded.js"></script>
+		<script src="gridloadingeffects/js/classie.js"></script>
+		<script src="gridloadingeffects/js/AnimOnScroll.js"></script>
+		<script>
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+		</script> 
+            
+      
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="decoration"></div>
+                
+                <div class="container">
+                    <div class="news-box">
+                        <a href="#"><img src="images/pictures/1w.jpg" alt="img"></a>
+                        <h4>Bigger elements for news titles.</h4>
+                        <p class="half-bottom">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis nec sapien ac cursus. Vestibulum in imperdiet augue. Fusce ultricies, purus id pulvinar luctus, urna nisi euismod risus, sed condimentum erat risus eu lectus.
+                        </p>
+                        <a href="#" class="scale-hover button button-green button-xs">Read More</a>
+                        <a href="#" class="scale-hover news-social facebook-color"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="scale-hover news-social twitter-color"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="scale-hover news-social google-color"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+                
+                <div class="decoration"></div>
+                
+             
+                
+                <div class="container-fullscreen footer footer-dark" style="margin-left:50px">
+                    <a href="#" class="footer-logo"></a>
+                    <p class="half-bottom center-text">
+                        Learn to love to read again, on Tapestry. We want to help thousands of writers get discovered, so please tell a friend about Tapestry!
+                    </p>
+                    <div class="decoration"></div>
+                    <div class="footer-socials">
+                        <a href="#" class="scale-hover facebook-color"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="scale-hover google-color"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="scale-hover twitter-color"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="scale-hover phone-color"><i class="fa fa-phone"></i></a>
+                        <a href="#" class="scale-hover mail-color"><i class="fa fa-envelope-o"></i></a>
+                        <a href="#" class="scale-hover bg-magenta-dark back-to-top"><i class="fa fa-angle-up"></i></a>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="decoration"></div>
+                    <p class="small-text no-bottom center-text">Copyright 2016. All Rights Reserved</p>
+                </div>
+                <div class="footer-clear disabled"></div>
+                
+            </div>
+        </div>
+    </div>  
+    <a href="#" class="back-to-top-badge"><i class="fa fa-caret-up"></i>Back to top</a>
+</div>
+    
+    
+<!--Fly up share box and notifications go here -->
+<!--These are the only features that should be placed outside the all-elements class-->
+    
+<div class="share-bottom">
+    <h3>Share Page</h3>
+    <div class="share-socials-bottom">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.themeforest.net/">
+            <i class="fa fa-facebook facebook-color"></i>
+            Facebook
+        </a>
+        <a href="https://twitter.com/home?status=Check%20out%20ThemeForest%20http://www.themeforest.net">
+            <i class="fa fa-twitter twitter-color"></i>
+            Twitter
+        </a>
+        <a href="https://plus.google.com/share?url=http://www.themeforest.net">
+            <i class="fa fa-google-plus google-color"></i>
+            Google
+        </a>
+
+        <a href="https://pinterest.com/pin/create/button/?url=http://www.themeforest.net/&media=https://0.s3.envato.com/files/63790821/profile-image.jpg&description=Themes%20and%20Templates">
+            <i class="fa fa-pinterest-p pinterest-color"></i>
+            Pinterest
+        </a>
+        <a href="sms:">
+            <i class="fa fa-comment-o sms-color"></i>
+            Text
+        </a>
+        <a href="mailto:?&subject=Check this page out!&body=http://www.themeforest.net">
+            <i class="fa fa-envelope-o mail-color"></i>
+            Email
+        </a>
+        <div class="clear"></div>
+    </div>
+    <a href="#" class="close-share-bottom">Close</a>
+</div>
+    
+<div class="top-notification-1 top-notification bg-blue-dark">
+    <h4>Did you know?</h4>
+    <p>
+        Easy way to make sure your messages get read!
+    </p>
+    <a href="#" class="close-top-notification"><i class="fa fa-times"></i></a>
+</div>
+<div class="bottom-notification-1 bottom-notification bg-green-dark">
+    <h4>Did you know?</h4>
+    <p>
+        Easy way to make sure your messages get read!
+    </p>
+    <a href="#" class="close-bottom-notification"><i class="fa fa-times"></i></a>
+</div> 
+<div class="bottom-notification-2 bottom-notification bg-orange-dark timeout-notification">
+    <h4>Timeout: 5 Seconds</h4>
+    <p>
+        I'll go away on my own after a few seconds!
+    </p>
+</div>
+<div class="top-notification-2 top-notification bg-red-dark timeout-notification">
+    <h4>Timeout: 5 Seconds</h4>
+    <p>
+        I'll go away on my own after a few seconds!
+    </p>
+</div>
+    
+     
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
